@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Create_Profile_Activity" />
-        <activity android:name=".Create_LivingSpace_Activity"></activity>
+        <activity android:name=".Create_LivingSpace_Activity" />
+        <activity android:name=".DetailedView"></activity>
     </application>
 
 </manifest>
