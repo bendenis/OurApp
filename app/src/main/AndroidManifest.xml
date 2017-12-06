@@ -10,15 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity android:name=".Create_Profile_Activity" />
         <activity android:name=".Create_LivingSpace_Activity" />
-        <activity android:name=".DetailedView"></activity>
+        <activity android:name=".DetailedView" />
+        <activity
+            android:name=".MainLaindingPage"
+            android:label="@string/title_activity_main_lainding_page"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            >
+
+
+
+        </activity>
     </application>
 
 </manifest>
